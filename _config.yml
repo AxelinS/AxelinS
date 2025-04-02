@@ -1,0 +1,37 @@
+# site settings
+title: Robin Axel Andrade Perez
+subtitle: Computer Science Engineer
+email: axelinw112@gmail.com
+description: I am a computer science student at UDG and I am passionate about artificial intelligence.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+city: Zapotlanejo
+state: Jal
+zip_code: 45430
+country: Mexico
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/AxelinS
+  LinkedIn: https://www.linkedin.com/in/robin-axel-andrade-perez-87b071168/
+  Twitter: https://twitter.com/AxelinzZz
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
