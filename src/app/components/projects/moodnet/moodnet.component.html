@@ -1,0 +1,45 @@
+<main>
+    <section class="section banner">
+        <div class="container">
+            <div class="section-box-banner">
+                <div class="content">
+                    <div>
+                        <h1>{{"FeatureProjects.Title" | translate}}</h1>
+                    </div>
+                    <div class='banner-title'>
+                        <h2 [innerHTML]='"Project.Moodnet.Title" | translate' class="mt-4"></h2>
+                    </div>
+                    <div class='banner-description'>
+
+                        <ul class="education-list" data-aos="fade-up" *ngFor='let paragraph of "Project.Moodnet.Paragraph" | translate'>
+                            <li class="education-element">
+                                <span class="education-title" data-aos="fade-up" data-aos-duration="1000">{{paragraph}}</span>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <owl-carousel-o [options]="customOptions"
+                            *ngIf="(translate.get('Project.Moodnet.Imgs') | async)?.length">
+                    <ng-container
+                    *ngFor="let img of (translate.get('Project.Moodnet.Imgs') | async); let idx = index">
+                    <ng-template carouselSlide [id]="'moodnet-'+idx">
+                        <div class="img-container">
+                        <img [src]="img"
+                            [alt]="'moodnet image '+ idx"
+                            class="rounded" />
+                        </div>
+                    </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+        
+    </section>
+
+    
+    
+    <app-contact></app-contact>
+</main>

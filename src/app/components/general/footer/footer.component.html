@@ -1,0 +1,19 @@
+<footer>
+    <div [@animateFooter]>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' href="https://github.com/AxelinS" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_linkedin", "footer", "linkedin")' href="https://linkedin.com/in/robin-axel-andrade-perez" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:axelinw112@gmail.com" target='_blank'>axelinw112&#64;gmail.com </a>
+        </div>
+    </div>
+</footer>

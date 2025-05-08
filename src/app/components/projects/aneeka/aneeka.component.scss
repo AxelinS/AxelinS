@@ -1,0 +1,133 @@
+@import "./../../../../variables.scss";
+
+.banner {
+min-height: 100vh;
+
+.container {
+    display: table;
+    height: 100vh;
+    margin-left: 6rem;
+    margin-right: 0;
+    padding: 0;
+    background-attachment: fixed;
+
+.section-box-banner {
+    display: table-cell;
+    vertical-align: middle;
+  
+    .content {
+      margin-top: 98px;
+      width: 100%;
+      padding-right: 2rem;
+  
+      h1 {
+        color: #64ffda;
+        margin: 0 0 20px 3px;
+        font-size: 16px;
+        font-weight: normal;
+        font-family: $CodeFont;
+      }
+  
+      h2, h3 {
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 1.1;
+        margin: 0;
+        font-family: $MainFont;
+      }
+  
+      h2 {
+        color: $LightestSlate;
+      }
+      h3 {
+        color: $Slate;
+      }
+  
+      .banner-description {
+        margin-bottom: 70px;
+  
+        .education-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+  
+          .education-element {
+            margin-bottom: 1rem;
+  
+            .education-title {
+              display: block;
+              font-size: 18px;
+              color: $LightSlate;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}
+
+.right-container {
+    margin-top: 100vh;
+    padding-top: 30vh;
+    width: 70vh;
+    margin: auto;
+    background-attachment: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.owl-carousel-o {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.img-container {
+    margin-top: 2rem;
+    width: 100%;
+    max-height: 320px;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+.external-clip {
+    margin-top: 2rem;
+    width: 100%;
+    max-height: 320px;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+/* scrollbar styles for .img-container */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #8892b0;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $Green;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $Green;
+}
+
+/* dots styling for Owl Carousel */
+
+::ng-deep .owl-theme .owl-dots .owl-dot.active span,
+::ng-deep .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: white !important;
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot span {
+    background: #ffffff33;
+}

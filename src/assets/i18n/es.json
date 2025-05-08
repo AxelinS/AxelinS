@@ -1,0 +1,237 @@
+{
+  "Header.Item1": "Acerca de mi",
+  "Header.Item2": "Experiencia",
+  "Header.Item3": "Proyectos",
+  "Header.Item4": "Contacto",
+  "Header.cvBtn": "Curriculum",
+  "Header.cvName": "Robin_Axel_Andrade_Perez_CV_ES.pdf",
+
+  "Banner.Pretitle": "Hola! Mi nombre es",
+  "Banner.Description": "Soy un <span class='underline'>Desarrollador de Software</span> con experiencia en el desarrollo de software <span class='underline'>Back-end</span> y <span class='underline'>IA</span>, aplicando buenas prácticas y estándares de desarrollo. Mi enfoque es crear software eficiente y seguro alineado con las necesidades del negocio, integrando metodologías ágiles y herramientas de automatización para optimizar el ciclo de vida del desarrollo. Soy apasionado por la tecnología y siempre busco aprender y mejorar mis habilidades.",
+  "Banner.ActionBtn": "Saludame",
+
+  "AboutMe.Title": "Acerca de mi",
+  "AboutMe.Education": "Educación",
+  "AboutMe.EducationList": [
+    {
+      "Title": "Ingeniería en Ciencias Computacionales",
+      "Institution": "Universidad de Guadalajara",
+      "Date": "2021 - 2025"
+    },
+    {
+      "Title": "Técnico en Programación",
+      "Institution": "Cetis 162 - Zapotlanejo, Jalisco",
+      "Date": "2018 - 2021"
+    }
+  ],
+  "AboutMe.Language": "Lenguajes",
+  "AboutMe.LanguageList": ["Ingles - B2", "Español - Nativo"],
+  "AboutMe.Skills": "Habilidades",
+  "AboutMe.SkillsList": ["Python", "Golang", "Java", "C++", "Pytorch", "SQL", "Docker", "Git", "Linux"],
+  "AboutMe.SoftSkills": "Competencias personales",
+  "AboutMe.SoftSkillsList": ["Trabajo en equipo", "Resolución de problemas", "Adaptabilidad", "Comunicación", "Gestión del tiempo", "Gestión de proyectos"],
+  "AboutMe.Paragraphs": [
+    "Soy un desarrollador apasionado enfocado en crear soluciones innovadoras. Actualmente estoy en mi último semestre de una carrera de Ingeniería en Ciencias de la Computación, especializándome en Inteligencia de Datos.",
+    "Tengo experiencia en el desarrollo de software, ingeniería de back-end y aprendizaje automático.",
+    "Estoy ansioso por seguir aprendiendo y aplicando mis conocimientos a proyectos del mundo real."
+  ],
+
+  "Experience.Title": "Experiencia",
+  "Experience.Jobs": [
+    {
+      "Tab": "Global",
+      "Title": "Machine Learning Engineer",
+      "Date": "April 2024",
+      "Description": [
+        "..."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Mis proyectos",
+  "FeatureProjects.Label": "Proyecto Destacado",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Aneeka",
+      "Url": "aneeka",
+      "Description": "Personaje virtual controlado por varios modelos de IA que interactua con uno o varios usuarios a traves de un chat o con un usuario a traves de voz",
+      "imgs": [
+        "assets/images/aneeka/Aneeka_Stream_1.png",
+        "assets/images/aneeka/Aneeka_Stream_2.png",
+        "assets/images/aneeka/Aneeka_Panel_1.png",
+        "assets/images/aneeka/aneekavid3.gif"
+      ],
+      "Technologies": ["Python", "Golang", "Pytorch"]
+    },
+    {
+      "Title": "IA que juga Osu!",
+      "Url": "ai-osu",
+      "Description": "Modelo de IA que juega el juego Osu!. Entrenado usando Aprendizaje por Refuerzo y Aprendizaje Supervisado.",
+      "imgs": [
+        "assets/images/ai-osu/image1.png",
+        "assets/images/ai-osu/image2.png",
+        "assets/images/ai-osu/osu-ai-vid1.gif",
+        "assets/images/ai-osu/osu-ai-vid2.gif"
+      ],
+      "Technologies": ["Python", "Pytorch", "Reinforcement Learning", "Supervised Learning"]
+    }
+  ],
+
+  "OtherProjects.Title": "Mas proyectos",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Aneeka",
+      "Url": "aneeka",
+      "Description": "Personaje virtual controlado por varios modelos de IA que interactúa con uno o más usuarios mediante chat o con un solo usuario mediante voz.",
+      "imgs": [
+        "assets/images/aneeka/Aneeka_Stream_1.png",
+        "assets/images/aneeka/Aneeka_Stream_2.png",
+        "assets/images/aneeka/Aneeka_Panel_1.png",
+        "assets/images/aneeka/aneekavid3.gif"
+      ],
+      "Technologies": ["Python", "Golang", "Pytorch", "Unsloth"]
+    },
+    {
+      "Title": "IA que juega Osu!",
+      "Url": "ai-osu",
+      "Description": "Modelo de IA que juega al juego Osu!. Entrenado usando Aprendizaje Supervisado y Aprendizaje por Refuerzo.",
+      "imgs": [
+        "assets/images/ai-osu/image1.png",
+        "assets/images/ai-osu/image2.png",
+        "assets/images/ai-osu/osu-ai-vid1.gif",
+        "assets/images/ai-osu/osu-ai-vid2.gif"
+      ],
+      "Technologies": ["Python", "Pytorch", "Reinforcement Learning", "Supervised Learning"]
+    },
+    {
+      "Title": "App de Beca de Alimentos",
+      "Url": "food-scholarship",
+      "Description": "Aplicación móvil para gestionar las becas de alimentos en la Universidad de Tonalá (UDG). Servidor desarrollado en Golang y la app móvil en React Native.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/AxelinS/MoodNet",
+      "demoLink": "https://github.com/AxelinS/MoodNet",
+      "Technologies": ["Golang", "React Native", "API-REST", "Microservices"]
+    },
+    {
+      "Title": "Nekagochi",
+      "Url": "nekagochi",
+      "Description": "Tamagotchi con funciones de IA adicionales. Desarrollado en Java y Python. En desarrollo. Planes futuros incluyen una interfaz web donde puedas ver el estado de tu mascota, alimentarla, jugar con ella, etc.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/AxelinS/nekagochi",
+      "demoLink": "https://github.com/AxelinS/nekagochi",
+      "Technologies": ["Java", "Python", "Pytorch", "Websockets"]
+    },
+    {
+      "Title": "Moodnet",
+      "Url": "moodnet",
+      "Description": "Modelo de IA que predice una emoción a partir de texto. Proyecto personal para aprender sobre machine learning. El modelo se entrena con un dataset de más de 300,000 textos etiquetados con su emoción.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/AxelinS/MoodNet",
+      "demoLink": "https://github.com/AxelinS/MoodNet",
+      "Technologies": ["Python", "Pytorch"]
+    },
+    {
+      "Title": "Bot de Minecraft",
+      "Url": "minecraft-bot",
+      "Description": "Bot para Minecraft que realiza diversas tareas, incluida la automatización de recolección de recursos y combate contra otros jugadores.",
+      "ghLink": "https://github.com/AxelinS/MinecraftBot",
+      "demoLink": "https://github.com/AxelinS/MinecraftBot",
+      "Technologies": ["Java", "Fabric"]
+    }
+  ],
+
+  "Contact.Pretitle": "Y... ¿Ahora?",
+  "Contact.Title": "¡Salúdame!",
+  "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
+  "Contact.Btn": "Contactame",
+
+  "Project.Aneeka": {
+    "Title": "Aneeka",
+    "Paragraph": [
+      "Aneeka es una VTuber impulsada por IA, creada para entretenimiento interactivo y conversaciones basadas en IA. Se comunica en tiempo real con el chat de Twitch y con entrada de voz, respondiendo con personalidad mediante TTS y un avatar Live2D que refleja estados emocionales durante la conversación.",
+      "º Interacción por Chat y Voz: Aneeka lee el chat de Twitch (gestionando múltiples mensajes simultáneamente) y escucha entrada de voz mediante reconocimiento de voz a texto. También puede recibir comandos desde un panel web personalizado, haciéndola muy receptiva e interactiva.",
+      "º Modelo de IA Local: Aneeka ejecuta un LLM afinado localmente en mi máquina. El modelo fue entrenado con un conjunto de datos en español que construí traduciendo datasets conversacionales y recolectando automáticamente interacciones streamer-chat mediante una herramienta en Python que desarrollé.",
+      "º Expresiones Basadas en Emoción: Un modelo de predicción de emociones que diseñé analiza la salida del LLM y activa las expresiones faciales correspondientes en el avatar, mejorando el realismo e inmersión.",
+      "º Sincronización TTS + Subtítulos: Las respuestas habladas de Aneeka se generan mediante un motor TTS que también produce metadatos de marcas de tiempo. Estos metadatos se usan para crear subtítulos en tiempo real alineados con el audio y para sincronizar el movimiento de la boca del avatar.",
+      "º Infraestructura Backend: Inicialmente desarrollada en Python, la aplicación fue reescrita en Go para optimizar el rendimiento. Usa WebSockets para conectar sin fisuras los componentes en Go (gestión de chat, TTS, sincronización) y en Python (LLM, filtros, modelo de emoción).",
+      "º Herramientas y Pipelines de IA: Desarrollé herramientas para automatizar la generación de datasets a partir de interacciones reales de streamers—grabando audio, convirtiéndolo a texto y extrayendo logs de chat sincronizados—para enriquecer los datos de entrenamiento.",
+      "Construir Aneeka ha sido una experiencia muy enriquecedora. Me permitió profundizar en afinación de LLM, sistemas de interacción en tiempo real, sincronización multimodal y expresión emocional mediante IA. Recomiendo proyectos similares a quienes estén interesados en IA aplicada y personajes digitales."
+    ],
+    "Imgs": [
+      "assets/images/aneeka/Aneeka_Stream_1.png",
+      "assets/images/aneeka/Aneeka_Stream_2.png",
+      "assets/images/aneeka/Aneeka_Panel_1.png",
+      "assets/images/aneeka/aneekavid3.gif"
+    ],
+    "Technologies": ["Python", "Golang", "Pytorch"]
+  },
+
+  "Project.AI-Osu": {
+    "Title": "IA - Osu!",
+    "Paragraph": [
+      "Este fue mi primer proyecto de IA, desarrollado en 2023, donde entrené una red neuronal para jugar Osu! prediciendo acciones de apuntado y clic a partir de video de juego.",
+      "La fase de entrenamiento supervisado usó más de 300,000 secuencias de fotogramas etiquetados extraídos de repeticiones. Creé un pipeline de datos en Python para convertir el juego en secuencias de fotogramas en escala de grises y las coordenadas/clics correspondientes.",
+      "Inicialmente construido en TensorFlow, el proyecto evolucionó a una versión en PyTorch que mejoró la velocidad y la precisión. La arquitectura del modelo pasó de CNNs de fotograma único a modelos de secuencia multi-fotograma usando CNN + LSTM.",
+      "Para los clics, apliqué Deep Q-Learning para mejorar la sincronización mediante aprendizaje por refuerzo. El agente lee directamente la memoria de Osu!, rastrea retroalimentación en el juego y aprende políticas con DQNs de doble cabeza y reward shaping.",
+      "Diseñé todos los generadores de datos, herramientas para el procesamiento automático de repeticiones y el bucle de refuerzo. Mi pipeline captura fotogramas en tiempo real, parsea el estado del juego desde la memoria y entrena el modelo de forma incremental.",
+      "Con este proyecto aprendí optimización de modelos, ingeniería de datos, aprendizaje supervisado y por refuerzo, y obtuve una comprensión profunda de arquitecturas neuronales y estrategias de entrenamiento.",
+      "Probado en un equipo con Ryzen 5 5500, RTX 3060 12GB y 32 GB RAM funcionando en Ubuntu 24.04 y Windows 11."
+    ],
+    "Imgs": [
+      "assets/images/ai-osu/image1.png",
+      "assets/images/ai-osu/image2.png",
+      "assets/images/ai-osu/osu-ai-vid1.gif",
+      "assets/images/ai-osu/osu-ai-vid2.gif"
+    ],
+    "Technologies": ["Python", "Pytorch", "Aprendizaje por refuerzo", "Aprendizaje Supervisado"]
+  },
+
+  "Project.Nekagochi": {
+    "Title": "Nekagochi",
+    "Paragraph": [
+      "Nekagochi es una aplicación de mascota virtual interactiva desarrollada en Java para explorar principios de programación orientada a objetos y buenas prácticas. Inspirado en el Tamagotchi clásico, este proyecto añade funciones modernas para mejorar la interacción.",
+      "Una innovación clave es la integración con un Large Language Model (LLM) mediante comunicación WebSocket. Esto permite a los usuarios mantener conversaciones dinámicas con su mascota, mientras ésta también puede iniciar diálogos para expresar sus necesidades o estado emocional. La inferencia y el filtrado de respuestas los maneja un backend en Python.",
+      "El proyecto está en desarrollo. En el futuro planeo implementar una interfaz web para mejorar la experiencia de usuario e integrar un módulo de detección de emociones que permita a la mascota reflejar su propio estado emocional y adaptarse según las emociones de su dueño.",
+      "Nekagochi combina diseño de software, integración de IA y diseño centrado en el usuario, sirviendo como plataforma práctica para experimentar con agentes conversacionales y modelado emocional."
+    ],
+    "Imgs": ["assets/images/logo.png"],
+    "Technologies": ["Java", "Python", "Pytorch", "Websockets"]
+  },
+
+  "Project.Moodnet": {
+    "Title": "Moodnet",
+    "Paragraph": [
+      "MoodNet es un modelo de clasificación de emociones para texto en español, desarrollado con PyTorch. Inicialmente experimenté con una arquitectura basada en LSTM compuesta por embedding, LSTM y capas lineales con activación ReLU, pero el rendimiento fue limitado, lo que me llevó a adoptar una arquitectura basada en Transformers usando `TransformerEncoder` de PyTorch.",
+      "El modelo final incluye codificación posicional, atención multi-cabeza y capas feedforward, seguido de un clasificador para predecir una de seis categorías emocionales: tristeza, alegría, amor, enojo, miedo y sorpresa.",
+      "Para apoyar el modelo, construí un tokenizador personalizado adaptado al español analizando y preprocesando las palabras del dataset. El conjunto de datos fue curado combinando varias fuentes públicas y enriquecido mediante traducción automática de inglés a español con una herramienta que desarrollé.",
+      "Este proyecto mejoró significativamente mi comprensión de técnicas de PLN, mecanismos de atención y optimización de modelos para tareas de procesamiento de lenguaje real en idiomas con pocos recursos como el español."
+    ],
+    "Project.Moodnet.Imgs": ["assets/images/logo.png"],
+    "Project.Moodnet.Technologies": ["Python", "Pytorch"]
+  },
+
+  "Project.MinecraftBot": {
+    "Title": "Bot de Minecraft",
+    "Paragraph": [
+      "Este es un bot para Minecraft que realiza diversas tareas, incluida la automatización de recolección de recursos y combate con otros jugadores.",
+      "El bot está desarrollado en Java utilizando la API de Fabric, que permite una fácil integración con servidores de Minecraft y ofrece múltiples funcionalidades para modding.",
+      "El diseño es modular y extensible, facilitando la adición de nuevas funciones y características.",
+      "Este proyecto está en desarrollo."
+    ],
+    "Imgs": ["assets/images/logo.png"],
+    "Technologies": ["Java", "Fabric"]
+  },
+
+  "Project.FoodScholarshipApp": {
+    "Title": "App de Beca de Alimentos",
+    "Paragraph": [
+      "Como parte de un equipo en CUTonala, desarrollamos una App de Beca de Alimentos para reemplazar el sistema manual anterior, reduciendo el uso de papel y mejorando la eficiencia en la gestión de usuarios y servicios.",
+      "La solución incluye una aplicación móvil (Android, desarrollada con React Native) y un servidor backend en Go, que expone una API RESTful y gestiona datos mediante una base de datos SQLite.",
+      "Fui responsable de diseñar la arquitectura del sistema, desarrollar la API en Go y asegurar que la aplicación cumpliera con las necesidades del personal administrativo y de los estudiantes.",
+      "El sistema soporta acceso basado en roles, controla la emisión de cupones de alimentos y conecta la app con el servidor de forma segura vía HTTP/HTTPS.",
+      "Esta experiencia potenció mis habilidades en desarrollo backend, diseño de APIs y resolución colaborativa de problemas para entregar una herramienta práctica e impactante para la universidad."
+    ],
+    "Imgs": ["assets/images/logo.png"],
+    "Technologies": ["Golang", "React Native", "API-REST", "Microservicios"]
+  }
+}

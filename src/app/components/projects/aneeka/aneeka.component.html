@@ -1,0 +1,48 @@
+<main>
+    <section class="section banner">
+        <div class="container">
+            <div class="section-box-banner">
+                <div class="content">
+                    <div>
+                        <h1>{{"FeatureProjects.Title" | translate}}</h1>
+                    </div>
+                    <div class='banner-title'>
+                        <h2 [innerHTML]='"Project.Aneeka.Title" | translate' class="mt-4"></h2>
+                    </div>
+                    <div class='banner-description'>
+
+                        <ul class="education-list" data-aos="fade-up" *ngFor='let paragraph of "Project.Aneeka.Paragraph" | translate'>
+                            <li class="education-element">
+                                <span class="education-title" data-aos="fade-up" data-aos-duration="1000">{{paragraph}}</span>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-container">
+                <owl-carousel-o [options]="customOptions"
+                            *ngIf="(translate.get('Project.Aneeka.Imgs') | async)?.length">
+                    <ng-container
+                    *ngFor="let img of (translate.get('Project.Aneeka.Imgs') | async); let idx = index">
+                    <ng-template carouselSlide [id]="'aneeka-'+idx">
+                        <div class="img-container">
+                        <img [src]="img"
+                            [alt]="'Aneeka image '+ idx"
+                            class="rounded" />
+                        </div>
+                    </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+                <iframe class="external-clip" src="https://clips.twitch.tv/embed?clip=GorgeousInspiringSageHoneyBadger-UnETxqXpPxS1_CPi&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+                <iframe class="external-clip" src="https://clips.twitch.tv/embed?clip=DeterminedFamousMelonKappaRoss-gq4l4VTocghOBPto&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
+            </div>
+        </div>
+        
+    </section>
+
+    
+    
+    <app-contact></app-contact>
+</main>

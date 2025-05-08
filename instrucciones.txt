@@ -1,0 +1,5 @@
+Para agregar otro proyecto hay que:
+- meterlo en la carpeta */src/app/components/projects
+- agregarlo en los idiomas de */src/assets/i18n
+- ponerle una ruta en */src/app/app-routing.module.ts
+- agregar su modulo a */src/app/app.module.ts

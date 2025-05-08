@@ -1,0 +1,258 @@
+@import "./../../../../variables.scss";
+
+.about{
+
+    .about-description{
+        margin-top: 30px;
+        max-width: 480px;
+    }
+
+    .about-img-container{
+        width: 324px;
+        height: 245px;
+        margin: auto;
+
+        &:after{
+            content: '';
+            border: 2px solid $Green;
+            z-index: 0;
+            display: block;
+            position: relative;
+            width: 294px;
+            height: 195px;
+            border-radius: 3px;
+            bottom: 190px;  
+            left: 23px;
+        }
+
+        img{
+            z-index: 2;
+            position: relative;
+        }
+    }
+    
+    .about-right-container{
+        width: 350px;
+        margin: auto;
+    }
+
+    .skills-list{
+        display: grid;
+        grid-template-columns: repeat(4,minmax(140px,200px));
+        overflow: hidden;
+        padding: 0;
+        margin: 20px 0 0 0;
+        list-style: none;
+    }
+    
+    .soft-skills-list{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(140px,200px));
+        overflow: hidden;
+        padding: 0;
+        margin: 30px 0 0 0;
+        list-style: none;
+    }
+
+    .skill-element{
+        position: relative;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        font-size: 13px;
+        font-family: $CodeFont;
+        color: $Slate;
+        span{
+          padding-bottom: 5px;
+          font-weight: 500;
+        }
+
+        &:before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: $Green;
+            font-size: 14px;
+            line-height: 12px;
+        }
+    }
+    
+    .soft-skill-element{
+        position: relative;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        font-size: 13px;
+        font-family: $CodeFont;
+        color: $Slate;
+        span{
+          padding-bottom: 5px;
+          background-color: $LightNavy;
+          border-radius: 2px;
+          padding: 2px 5px;
+        }
+
+        &:before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: $Green;
+            font-size: 14px;
+            line-height: 12px;
+        }
+    }
+    
+    .language-list{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(140px,200px));
+        overflow: hidden;
+        padding: 0;
+        margin: 5px 0 0 0;
+        list-style: none;
+    }
+    
+    .language-element{
+        position: relative;
+        margin-bottom: 15px;
+        padding-left: 5px;
+        font-size: 13px;
+        font-family: $CodeFont;
+        color: $Slate;
+        span{
+          padding-bottom: 5px;
+          font-weight: 800;
+        }
+
+        &:before {
+            content: '>';
+            position: absolute;
+            left: 0;
+            color: $Green;
+            font-size: 14px;
+            line-height: 12px;
+        }
+    }
+
+    .education-list{
+        display: grid;
+        grid-template-columns: repeat(1,minmax(160px,340px));
+        overflow: hidden;
+        padding: 0;
+        margin: 0px 0 0 0;
+        list-style: none;
+    }
+    
+    .education-element{
+        position: relative;
+        margin-bottom: 2px;
+        padding-left: 20px;
+        font-size: 13px;
+        font-family: $CodeFont;
+        color: $Slate;
+        
+        span{
+          padding-bottom: 5px;
+        }
+
+        .education-institution{
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            color: $Green !important;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .education-date{
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            color: $Green !important;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .education-title{
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1.5;
+            color: $White !important;
+          }
+          .education-title:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 3px;
+            content: "";
+            display: block;
+            height: 1px;
+            left: 50%;
+            position: absolute;
+            font-size: 15px;
+            background: $Green;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0%;
+          }
+          .education-title:hover:after {
+            width: 100%;
+            left: 0;
+          }
+        
+        &:before {
+            position: absolute;
+            left: 0;
+            color: $Green;
+            font-size: 15px;
+            line-height: 12px;
+        }
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+    .about-img-container{
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .about{
+        .about-img-container img{
+            width: 200px;
+            height: 200px;
+        }
+        .about-img-container:after {
+            width: 200px;
+            height: 200px;
+            bottom: 190px;
+            left: 74px;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .about{
+
+        .about-img-container {
+            width: 100%;
+
+            img{
+                width: 180px;
+                height: 180px;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+
