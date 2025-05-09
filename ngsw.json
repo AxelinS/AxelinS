@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1746749473528,
+  "timestamp": 1746749784789,
   "index": "/AxelinS/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/AxelinS/favicon.ico",
         "/AxelinS/index.html",
-        "/AxelinS/main.f546cb5b56f9a5f6.js",
+        "/AxelinS/main.407bd1bbf774d24e.js",
         "/AxelinS/manifest.webmanifest",
         "/AxelinS/polyfills.5d5c0adebb7aca02.js",
         "/AxelinS/runtime.dbd87cc4e87d1017.js",
@@ -268,8 +268,8 @@
     "/AxelinS/fa-solid-900.6bcd6c9c0a9fcfbf.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
     "/AxelinS/fa-solid-900.9d21645b52658faa.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
     "/AxelinS/favicon.ico": "9b61ea03438e72556678dd403b7525c9b5c9407a",
-    "/AxelinS/index.html": "b90ee4e38d8e34427b26be5323e82747459fd6aa",
-    "/AxelinS/main.f546cb5b56f9a5f6.js": "dc831998a085215ebf5e6fdcc3143adbdae2fdd2",
+    "/AxelinS/index.html": "aca3a072f542acc225e702d586e34e87cef4cc65",
+    "/AxelinS/main.407bd1bbf774d24e.js": "7cb661312f4b879dc35064c14d4d6772bfa04427",
     "/AxelinS/manifest.webmanifest": "6420a6de596e14935ef173cc96f0b6d12b52b0e3",
     "/AxelinS/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "/AxelinS/polyfills.5d5c0adebb7aca02.js": "2ab21a9e5f084da7527295cca12a5eae5ae279a6",
