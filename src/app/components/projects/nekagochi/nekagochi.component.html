@@ -4,7 +4,7 @@
             <div class="section-box-banner">
                 <div class="content">
                     <div>
-                        <h1>{{"FeatureProjects.Title" | translate}}</h1>
+                        <h1>{{"FeatureProjects.Title" | translate}} <a href="https://github.com/AxelinS/nekagochi"><i id="ghLink" class="ml-4 fab fa-github"></i></a></h1>
                     </div>
                     <div class='banner-title'>
                         <h2 [innerHTML]='"Project.Nekagochi.Title" | translate' class="mt-4"></h2>
@@ -29,7 +29,7 @@
                         <div class="img-container">
                         <img [src]="img"
                             [alt]="'Nekagochi image '+ idx"
-                            class="rounded" />
+                            class="rounded" width="150px" height="300px"/>
                         </div>
                     </ng-template>
                     </ng-container>

@@ -24,6 +24,7 @@ import { AiosuModule } from './components/projects/ai-osu/ai-osu.module';
 import { FoodScholarshipModule } from './components/projects/food-scolarship/food-scholarship.module';
 import { MinecraftBotModule } from './components/projects/minecraft-bot/minecraft-bot.module';
 import { MoodnetModule } from './components/projects/moodnet/moodnet.module';
+import { EnergyModule } from './components/projects/energy-monitoring/energy.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -44,6 +45,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FoodScholarshipModule,
     MinecraftBotModule,
     MoodnetModule,
+    EnergyModule,
     GeneralModule,
 
     // AnimateOnScrollModule.forRoot(),

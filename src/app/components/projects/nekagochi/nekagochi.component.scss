@@ -4,21 +4,17 @@
 min-height: 100vh;
 
 .container {
-    display: table;
-    height: 100vh;
-    margin-left: 6rem;
-    margin-right: 0;
-    padding: 0;
-    background-attachment: fixed;
+  display: table;
+  max-width: none !important;
+  table-layout: fixed !important;
+  width: 85% !important;
+  height: 100vh;
 
 .section-box-banner {
-    display: table-cell;
-    vertical-align: middle;
-  
+  display: table-cell;
+  vertical-align: middle;
     .content {
       margin-top: 98px;
-      width: 100%;
-      padding-right: 2rem;
   
       h1 {
         color: #64ffda;
@@ -68,9 +64,10 @@ min-height: 100vh;
 }
 
 .right-container {
-    margin-top: 100vh;
-    padding-top: 30vh;
-    width: 70vh;
+    padding-right: 1rem;
+    padding-top: 25rem;
+    width: 80%;
+    height: 1500px;
     margin: auto;
     background-attachment: relative;
     background-position: center;

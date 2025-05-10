@@ -76,8 +76,7 @@ export class HeaderComponent implements OnInit {
   downloadCV() {
     this.translate.get("Header.cvName").subscribe(val => {
       this.cvName = val;
-      const url = window.location.origin;
-      window.open(`${url}/assets/cv/${this.cvName}`, "_blank");
+      window.open(`${this.cvName}`, "_blank");
     });
   }
 

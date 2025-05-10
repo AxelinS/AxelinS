@@ -9,6 +9,7 @@ import { AiosuComponent } from './components/projects/ai-osu/ai-osu.component';
 import { FoodScholarshipAppComponent } from './components/projects/food-scolarship/food-scholarship.component';
 import { MinecraftBotComponent } from './components/projects/minecraft-bot/minecraft-bot.component';
 import { MoodnetComponent } from './components/projects/moodnet/moodnet.component';
+import { EnergyComponent } from './components/projects/energy-monitoring/energy.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,7 @@ const routes: Routes = [
       { path: 'food-scholarship',    component: FoodScholarshipAppComponent },
       { path: 'minecraft-bot',    component: MinecraftBotComponent },
       { path: 'moodnet',    component: MoodnetComponent },
+      { path: 'monitoring-energy',    component: EnergyComponent },
     ]
   },
   { path: '', redirectTo: '/en', pathMatch: 'full' },

@@ -1,5 +1,33 @@
 @import "./../../../../variables.scss";
 
+.main-more-btn {
+    color: $Green;
+    background-color: transparent;
+    border: 1px solid $Green;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: $CodeFont;
+    line-height: 1;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.40rem 0.7rem;
+  
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: rgba(100, 255, 218, 0.07);
+      outline: none;
+    }
+  }
+
+.more-btn{
+    width: fit-content !important;
+    margin-left: 1px;
+}
+
 .more-proyects{
     .proyect-col{
         padding: 10px;

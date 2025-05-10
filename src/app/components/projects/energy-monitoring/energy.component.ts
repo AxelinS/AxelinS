@@ -4,11 +4,11 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
-  selector: 'app-food-scholarship',
-  templateUrl: './food-scholarship.component.html',
-  styleUrls: ['./food-scholarship.component.scss']
+  selector: 'app-energy',
+  templateUrl: './energy.component.html',
+  styleUrls: ['./energy.component.scss']
 })
-export class FoodScholarshipAppComponent implements OnInit {
+export class EnergyComponent implements OnInit {
 
   customOptions: OwlOptions = {
     loop: true,
