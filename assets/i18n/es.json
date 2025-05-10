@@ -4,11 +4,11 @@
   "Header.Item3": "Proyectos",
   "Header.Item4": "Contacto",
   "Header.cvBtn": "Curriculum",
-  "Header.cvName": "Robin_Axel_Andrade_Perez_CV_ES.pdf",
+  "Header.cvName": "https://drive.google.com/file/d/1LIYfpm0hlWQvfrorvrMlKgvS73_ctyZO/view?usp=sharing",
 
   "Banner.Pretitle": "Hola! Mi nombre es",
   "Banner.Description": "Soy un <span class='underline'>Desarrollador de Software</span> con experiencia en el desarrollo de software <span class='underline'>Back-end</span> y <span class='underline'>IA</span>, aplicando buenas prácticas y estándares de desarrollo. Mi enfoque es crear software eficiente y seguro alineado con las necesidades del negocio, integrando metodologías ágiles y herramientas de automatización para optimizar el ciclo de vida del desarrollo. Soy apasionado por la tecnología y siempre busco aprender y mejorar mis habilidades.",
-  "Banner.ActionBtn": "Saludame",
+  "Banner.ActionBtn": "Contratame",
 
   "AboutMe.Title": "Acerca de mi",
   "AboutMe.Education": "Educación",
@@ -78,10 +78,12 @@
   ],
 
   "OtherProjects.Title": "Mas proyectos",
+  "OtherProjects.Btn": "Ver más",
   "OtherProjects.Projects": [
     {
       "Title": "Aneeka",
       "Url": "aneeka",
+      "Git": "False",
       "Description": "Personaje virtual controlado por varios modelos de IA que interactúa con uno o más usuarios mediante chat o con un solo usuario mediante voz.",
       "imgs": [
         "assets/images/aneeka/Aneeka_Stream_1.png",
@@ -94,6 +96,7 @@
     {
       "Title": "IA que juega Osu!",
       "Url": "ai-osu",
+      "Git": "False",
       "Description": "Modelo de IA que juega al juego Osu!. Entrenado usando Aprendizaje Supervisado y Aprendizaje por Refuerzo.",
       "imgs": [
         "assets/images/ai-osu/image1.png",
@@ -106,6 +109,7 @@
     {
       "Title": "App de Beca de Alimentos",
       "Url": "food-scholarship",
+      "Git": "False",
       "Description": "Aplicación móvil para gestionar las becas de alimentos en la Universidad de Tonalá (UDG). Servidor desarrollado en Golang y la app móvil en React Native.",
       "imgs": ["assets/images/countries-viewer.png"],
       "ghLink": "https://github.com/AxelinS/MoodNet",
@@ -115,6 +119,7 @@
     {
       "Title": "Nekagochi",
       "Url": "nekagochi",
+      "Git": "True",
       "Description": "Tamagotchi con funciones de IA adicionales. Desarrollado en Java y Python. En desarrollo. Planes futuros incluyen una interfaz web donde puedas ver el estado de tu mascota, alimentarla, jugar con ella, etc.",
       "imgs": ["assets/images/hands-game.png"],
       "ghLink": "https://github.com/AxelinS/nekagochi",
@@ -124,6 +129,7 @@
     {
       "Title": "Moodnet",
       "Url": "moodnet",
+      "Git": "True",
       "Description": "Modelo de IA que predice una emoción a partir de texto. Proyecto personal para aprender sobre machine learning. El modelo se entrena con un dataset de más de 300,000 textos etiquetados con su emoción.",
       "imgs": ["assets/images/countries-viewer.png"],
       "ghLink": "https://github.com/AxelinS/MoodNet",
@@ -133,10 +139,18 @@
     {
       "Title": "Bot de Minecraft",
       "Url": "minecraft-bot",
+      "Git": "True",
       "Description": "Bot para Minecraft que realiza diversas tareas, incluida la automatización de recolección de recursos y combate contra otros jugadores.",
       "ghLink": "https://github.com/AxelinS/MinecraftBot",
       "demoLink": "https://github.com/AxelinS/MinecraftBot",
       "Technologies": ["Java", "Fabric"]
+    },
+    {
+      "Title": "CUT-Energy",
+      "Url": "monitoring-energy",
+      "Git": "False",
+      "Description": "Monitoreo y control de consumo energético desarrollado en equipo como parte de mi servicio social. Desarrollé un mapa virtual para interactuar con dispositivos IoT y desplegando el sistema en arquitectura microservicios.",
+      "Technologies": ["Java", "Spring Boot", "Docker", "NodeJS", "MariaDB", "Microservicios", "Angular"]
     }
   ],
 
@@ -194,7 +208,7 @@
       "El proyecto está en desarrollo. En el futuro planeo implementar una interfaz web para mejorar la experiencia de usuario e integrar un módulo de detección de emociones que permita a la mascota reflejar su propio estado emocional y adaptarse según las emociones de su dueño.",
       "Nekagochi combina diseño de software, integración de IA y diseño centrado en el usuario, sirviendo como plataforma práctica para experimentar con agentes conversacionales y modelado emocional."
     ],
-    "Imgs": ["assets/images/logo.png"],
+    "Imgs": ["assets/images/under_development.png"],
     "Technologies": ["Java", "Python", "Pytorch", "Websockets"]
   },
 
@@ -206,7 +220,7 @@
       "Para apoyar el modelo, construí un tokenizador personalizado adaptado al español analizando y preprocesando las palabras del dataset. El conjunto de datos fue curado combinando varias fuentes públicas y enriquecido mediante traducción automática de inglés a español con una herramienta que desarrollé.",
       "Este proyecto mejoró significativamente mi comprensión de técnicas de PLN, mecanismos de atención y optimización de modelos para tareas de procesamiento de lenguaje real en idiomas con pocos recursos como el español."
     ],
-    "Project.Moodnet.Imgs": ["assets/images/logo.png"],
+    "Imgs": ["assets/images/under_development.png"],
     "Project.Moodnet.Technologies": ["Python", "Pytorch"]
   },
 
@@ -218,7 +232,7 @@
       "El diseño es modular y extensible, facilitando la adición de nuevas funciones y características.",
       "Este proyecto está en desarrollo."
     ],
-    "Imgs": ["assets/images/logo.png"],
+    "Imgs": ["assets/images/under_development.png"],
     "Technologies": ["Java", "Fabric"]
   },
 
@@ -231,7 +245,18 @@
       "El sistema soporta acceso basado en roles, controla la emisión de cupones de alimentos y conecta la app con el servidor de forma segura vía HTTP/HTTPS.",
       "Esta experiencia potenció mis habilidades en desarrollo backend, diseño de APIs y resolución colaborativa de problemas para entregar una herramienta práctica e impactante para la universidad."
     ],
-    "Imgs": ["assets/images/logo.png"],
+    "Imgs": ["assets/images/under_development.png"],
     "Technologies": ["Golang", "React Native", "API-REST", "Microservicios"]
+  },
+  
+  "Project.Monitoring-energy": {
+    "Title": "CUT-Energy",
+    "Paragraph": [
+      "Proyecto universitario que consiste en una API REST para controlar interruptores de energía y monitorear el consumo eléctrico. Fue desarrollado utilizando Spring Boot para los servicios backend y Node.js para la integración de la API. El sistema se desplegó usando contenedores Docker en una arquitectura de microservicios para mejorar la escalabilidad y el mantenimiento.",
+      "En este proyecto, que desarrollamos durante mi servicio social en el CUTonala, me integré a un equipo que ya estaba trabajando en él. Mi tarea fue crear la parte del mapa virtual para visualizar e interactuar con los dispositivos IoT que se fueran añadiendo.",
+      "Para lograr esto, el mapa se implementó con OpenLayers, e integré funcionalidades como la vista por edificio y por dispositivo, lo cual permite una representación más clara: se puede ver qué edificios tienen dispositivos instalados o acceder directamente a los dispositivos individuales."
+    ],
+    "Imgs": ["assets/images/under_development.png"],
+    "Technologies": ["Java", "Spring Boot", "Docker", "NodeJS", "MariaDB", "Microservicios", "Angular"]
   }
 }
