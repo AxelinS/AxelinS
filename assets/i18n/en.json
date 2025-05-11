@@ -120,7 +120,7 @@
       "Title": "nekagochi",
       "Url": "nekagochi",
       "Git": "True",
-      "Description": "Tamagotchi with extra ai functions. Developed with Java and Python. Under development. Future plans include a web interface where you can see the status of your pet, feed it, play with it, etc.",
+      "Description": "Tamagotchi with extra ai functions. Developed with Java (OOP) and Python. Under development. Future plans include a web interface where you can see the status of your pet, feed it, play with it, etc.",
       "imgs": ["assets/images/hands-game.png"],
       "ghLink": "https://github.com/AxelinS/nekagochi",
       "demoLink": "https://github.com/AxelinS/nekagochi",
@@ -204,7 +204,7 @@
   "Project.Nekagochi":{
     "Title": "Nekagochi",
     "Paragraph": [
-      "Nekagochi is an interactive virtual pet application developed in Java, designed to explore object-oriented programming principles and best practices. Inspired by the classic Tamagotchi, this project adds modern features to enhance user interaction.",
+      "Nekagochi is an interactive virtual pet application developed in Java using Object Oriented Programming, designed to explore object-oriented programming principles and best practices. Inspired by the classic Tamagotchi, this project adds modern features to enhance user interaction.",
       "A key innovation is the integration with a Large Language Model (LLM) via WebSocket communication. This allows users to have dynamic conversations with their pet, while the pet can also initiate dialogue to express its needs or emotional state. The inference and response filtering are handled by a Python backend.",
       "The project is currently under development. Future plans include implementing a web-based UI for improved user experience and integrating an emotion detection module that enables the pet to both reflect its own emotional state and adapt based on the emotions of its owner.",
       "Nekagochi combines software design, AI integration, and user-centric interaction design, serving as a practical platform for experimenting with conversational agents and emotional modeling."
