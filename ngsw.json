@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1746852783778,
+  "timestamp": 1746928293290,
   "index": "/AxelinS/index.html",
   "assetGroups": [
     {
@@ -119,6 +119,8 @@
         "/AxelinS/assets/images/aneeka/aneekavid3.gif",
         "/AxelinS/assets/images/aws-cloud-foundations.png",
         "/AxelinS/assets/images/aws-data-engineering.png",
+        "/AxelinS/assets/images/beca-alimentos/Diagrama_appAlimentos.png",
+        "/AxelinS/assets/images/cut-energy/CUT-Energy.png",
         "/AxelinS/assets/images/favicon.ico",
         "/AxelinS/assets/images/logo.png",
         "/AxelinS/assets/images/me.jpg",
@@ -227,7 +229,7 @@
     "/AxelinS/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/AxelinS/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/AxelinS/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "/AxelinS/assets/i18n/en.json": "a06ede2bb977af0ce88473bbcef32fc1aacb909a",
+    "/AxelinS/assets/i18n/en.json": "a07762e4cf301724543355da9a8c3f285fef2c57",
     "/AxelinS/assets/i18n/es.json": "cfd340d007cffc4fecd91a11c6aa1953b239b775",
     "/AxelinS/assets/icons/cv plantilla.pdf": "566ecef3024cc9a771c7c80420a3726793a1e26d",
     "/AxelinS/assets/icons/folder.svg": "024e52150f03c8e0f77d17979a27ae94830678be",
@@ -243,6 +245,8 @@
     "/AxelinS/assets/images/aneeka/aneekavid3.gif": "31a5c096097a2ff61a19fcb5e46b34c42c91e73b",
     "/AxelinS/assets/images/aws-cloud-foundations.png": "6be912d1bf6e88aa33890a19da08c6ca72e05575",
     "/AxelinS/assets/images/aws-data-engineering.png": "89c91ad7597950f02f8c20eb4c6a8686509e773c",
+    "/AxelinS/assets/images/beca-alimentos/Diagrama_appAlimentos.png": "a9f4d02c424c15e7849cf8b5cca5c310d83ab6ff",
+    "/AxelinS/assets/images/cut-energy/CUT-Energy.png": "d817c8badcf312b6a3be9e18ca12e68a7121ffd5",
     "/AxelinS/assets/images/favicon.ico": "9b61ea03438e72556678dd403b7525c9b5c9407a",
     "/AxelinS/assets/images/logo.png": "b7a0a3be1ae9fc8ab32a207c6afc13e435045b78",
     "/AxelinS/assets/images/me.jpg": "f1b3d29092f209a293e2337c7b6e58884cb164bb",

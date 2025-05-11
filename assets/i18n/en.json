@@ -246,7 +246,7 @@
       "The system supports role-based access, controls the issuance of food coupons, and connects the app to the server securely via HTTP/HTTPS.",
       "This experience enhanced my skills in backend development, API design, and collaborative problem-solving to deliver a practical and impactful tool for our university."
     ],
-    "Imgs": ["assets/images/under_development.png"],
+    "Imgs": ["assets/images/beca-alimentos/Diagrama_appAlimentos.png", "assets/images/under_development.png"],
     "Technologies": ["Golang", "React Native", "API-REST"]
   },
 
@@ -257,7 +257,7 @@
       "This project was developed as part of my social service at CUTonala, where I joined a team that was already working on it. My role was to build the virtual map interface to visualize and interact with the IoT devices being added.",
       "To accomplish this, the map was created using OpenLayers. I implemented features such as building and device views, allowing a clearer representation: users could see which buildings contained devices or view the devices directly."
     ],
-    "Imgs": ["assets/images/under_development.png"],
+    "Imgs": ["assets/images/cut-energy/CUT-Energy.png", "assets/images/under_development.png"],
     "Technologies": ["Java", "Spring Boot", "Docker", "NodeJS", "MariaDB", "Microservices", "Angular"]
   }
 }
