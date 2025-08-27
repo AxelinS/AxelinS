@@ -27,7 +27,7 @@
   "AboutMe.Language": "Languages",
   "AboutMe.LanguageList": ["English - B2", "Spanish - Native"],
   "AboutMe.Skills": "Skills",
-  "AboutMe.SkillsList": ["Python", "Golang", "Java", "C++", "Pytorch", "SQL", "Docker", "Git", "Linux"],
+  "AboutMe.SkillsList": ["Python", "Golang", "C++", "Pytorch", "SQL", "Docker", "Git", "Linux"],
   "AboutMe.SoftSkills": "Soft Skills",
   "AboutMe.SoftSkillsList": ["Teamwork", "Problem Solving", "Adaptability", "Communication", "Time Management", "Proyect Management"],
   "AboutMe.Paragraphs": [
