@@ -4,4 +4,4 @@ Para agregar otro proyecto hay que:
 - ponerle una ruta en */src/app/app-routing.module.ts
 - agregar su modulo a */src/app/app.module.ts
 
-ng deploy --configuration production --base-href="https://https://axelins.github.io/AxelinS/"
+ng build --configuration production --base-href="https://https://axelins.github.io/"
