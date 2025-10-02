@@ -27,7 +27,7 @@
   "AboutMe.Language": "Lenguajes",
   "AboutMe.LanguageList": ["Ingles - B2", "Español - Nativo"],
   "AboutMe.Skills": "Habilidades",
-  "AboutMe.SkillsList": ["Python", "Golang", "C++", "Pytorch", "SQL", "Docker", "Git", "Linux"],
+  "AboutMe.SkillsList": ["Python", "Go", "C++", "Pytorch", "SQL", "Docker", "Git", "Linux"],
   "AboutMe.SoftSkills": "Competencias personales",
   "AboutMe.SoftSkillsList": ["Trabajo en equipo", "Resolución de problemas", "Adaptabilidad", "Comunicación", "Gestión del tiempo", "Gestión de proyectos"],
   "AboutMe.Paragraphs": [
@@ -208,7 +208,7 @@
       "El proyecto está en desarrollo. En el futuro planeo implementar una interfaz web para mejorar la experiencia de usuario e integrar un módulo de detección de emociones que permita a la mascota reflejar su propio estado emocional y adaptarse según las emociones de su dueño.",
       "Nekagochi combina diseño de software, integración de IA y diseño centrado en el usuario, sirviendo como plataforma práctica para experimentar con agentes conversacionales y modelado emocional."
     ],
-    "Imgs": ["assets/images/under_development.png"],
+    "Imgs": [],
     "Technologies": ["Java", "Python", "Pytorch", "Websockets"]
   },
 
@@ -220,7 +220,7 @@
       "Para apoyar el modelo, construí un tokenizador personalizado adaptado al español analizando y preprocesando las palabras del dataset. El conjunto de datos fue curado combinando varias fuentes públicas y enriquecido mediante traducción automática de inglés a español con una herramienta que desarrollé.",
       "Este proyecto mejoró significativamente mi comprensión de técnicas de PLN, mecanismos de atención y optimización de modelos para tareas de procesamiento de lenguaje real en idiomas con pocos recursos como el español."
     ],
-    "Imgs": ["assets/images/under_development.png"],
+    "Imgs": [],
     "Project.Moodnet.Technologies": ["Python", "Pytorch"]
   },
 
@@ -232,7 +232,7 @@
       "El diseño es modular y extensible, facilitando la adición de nuevas funciones y características.",
       "Este proyecto está en desarrollo."
     ],
-    "Imgs": ["assets/images/under_development.png"],
+    "Imgs": [],
     "Technologies": ["Java", "Fabric"]
   },
 
@@ -245,7 +245,7 @@
       "El sistema soporta acceso basado en roles, controla la emisión de cupones de alimentos y conecta la app con el servidor de forma segura vía HTTP/HTTPS.",
       "Esta experiencia potenció mis habilidades en desarrollo backend, diseño de APIs y resolución colaborativa de problemas para entregar una herramienta práctica e impactante para la universidad."
     ],
-    "Imgs": ["assets/images/under_development.png"],
+    "Imgs": ["assets/images/beca-alimentos/Diagrama_appAlimentos.png"],
     "Technologies": ["Golang", "React Native", "API-REST", "Microservicios"]
   },
   
@@ -256,7 +256,7 @@
       "En este proyecto, que desarrollamos durante mi servicio social en el CUTonala, me integré a un equipo que ya estaba trabajando en él. Mi tarea fue crear la parte del mapa virtual para visualizar e interactuar con los dispositivos IoT que se fueran añadiendo.",
       "Para lograr esto, el mapa se implementó con OpenLayers, e integré funcionalidades como la vista por edificio y por dispositivo, lo cual permite una representación más clara: se puede ver qué edificios tienen dispositivos instalados o acceder directamente a los dispositivos individuales."
     ],
-    "Imgs": ["assets/images/under_development.png"],
+    "Imgs": ["assets/images/cut-energy/CUT-Energy.png"],
     "Technologies": ["Java", "Spring Boot", "Docker", "NodeJS", "MariaDB", "Microservicios", "Angular"]
   }
 }

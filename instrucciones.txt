@@ -3,3 +3,5 @@ Para agregar otro proyecto hay que:
 - agregarlo en los idiomas de */src/assets/i18n
 - ponerle una ruta en */src/app/app-routing.module.ts
 - agregar su modulo a */src/app/app.module.ts
+
+ng deploy --configuration production --base-href="https://https://axelins.github.io/AxelinS/"
